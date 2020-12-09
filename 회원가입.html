@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registration Form</title>
+	<link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="title">
+      Registration Form
+    </div>
+    <div class="form">
+       <div class="inputfield">
+          <label>이름</label>
+          <input required placeholder="길동" type="text" class="input">
+       </div>  
+        <div class="inputfield">
+          <label>성</label>
+          <input required placeholder="홍" required type="text" class="input">
+       </div>  
+       <div class="inputfield">
+          <label>비밀번호</label>
+          <input required type="password" class="input">
+       </div>  
+      <div class="inputfield">
+          <label>비밀번호 확인</label>
+          <input required type="password" class="input">
+       </div> 
+        <div class="inputfield">
+          <label>성별</label>
+          <div class="custom_select">
+            <select>
+              <option value="">선택</option>
+              <option value="male">남자</option>
+              <option value="female">여자</option>
+            </select>
+          </div>
+       </div> 
+        <div class="inputfield">
+          <label>이메일 주소</label>
+          <input required placeholder="example@example.com" type="text" class="input">
+       </div> 
+      <div class="inputfield">
+          <label>전화번호</label>
+          <input required type="text" class="input">
+       </div> 
+      <div class="inputfield">
+          <label>주소</label>
+          <textarea required class="textarea"></textarea>
+       </div> 
+      <div class="inputfield">
+          <label>우편번호</label>
+          <input required type="text" class="input">
+       </div> 
+      <div class="inputfield terms">
+          <label class="check">
+            <input required type="checkbox">
+            <span class="checkmark"></span>
+          </label>
+          <p>회원가입에 동의합니다.</p>
+       </div> 
+      <div class="inputfield">
+        <input type="submit" value="Register" class="btn">
+      </div>
+    </div>
+</div>	
+	
+</body>
+</html>
